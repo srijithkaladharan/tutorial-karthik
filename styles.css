@@ -1,3 +1,74 @@
-/* h1 {
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+.header-box {
+    height:400px;
+    width: 50%;
+}
+
+.header-left {
+    background-color: yellowgreen;
+    text-align: center;
+}
+ 
+.header-box p {
     color: red;
-} */
+}
+
+#self-intro {
+    color: blue;
+}
+
+#logo {
+    width: 44px;
+    height: 44px;
+}
+ 
+.header-right {
+    background-color: grey;
+    text-align: center;
+    color: #fcf9f9;
+}
+
+.parent-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.alignment {
+    margin-top:40px;
+    margin-left:40px;
+}
+
+.alignment p {
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+#p1 {
+    display: block;
+    background-color: tomato;
+}
+
+#p2 {
+    display: inline-block;
+    background-color: greenyellow;
+    width: 100px;
+    height: 40px;
+}
+
+#p3 {
+    display: inline;
+    background-color: indianred;
+    width: 100px;
+    height: 40px;
+}
+
+.my-btn {
+    background-color: orangered;
+    margin-right: 40px;
+    width: 200px;
+}
